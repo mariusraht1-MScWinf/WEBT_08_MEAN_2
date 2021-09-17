@@ -1,0 +1,6 @@
+{
+  "/shopping_list": {
+    "target": "http://localhost:3000",
+    "secure": true
+  }
+}

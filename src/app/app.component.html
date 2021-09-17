@@ -1,0 +1,9 @@
+<!-- the navbar is already implemented; note that the value of the title variable from app.component.ts is used here -->
+<nav class="navbar navbar-dark bg-dark">
+  <span class="navbar-brand mb-0 h1">{{ title }}</span>
+</nav>
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let item of shopping_list_items">
+    {{ item }}
+  </li>
+</ul>
